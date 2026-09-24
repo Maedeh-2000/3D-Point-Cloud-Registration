@@ -45,6 +45,10 @@ The terrestrial photogrammetry and ALS point clouds were subsequently registered
 
 A scale check was also performed to verify consistency between the datasets.
 
+### Registration Result
+
+![Registered terrestrial photogrammetry and ALS point clouds](images/point-cloud-registration.png)
+
 ## Accuracy Assessment
 
 Ground Control Points and independent check points were used to evaluate registration accuracy.
@@ -55,11 +59,17 @@ Ground Control Points and independent check points were used to evaluate registr
 
 Higher errors were mainly associated with points affected by limited visibility or steep observation angles.
 
+### Ground Control Points
+
+![GCP comparison between terrestrial and ALS point clouds](images/gcp-comparison.png)
+
 ## Geometric Quality Assessment
 
 The geometric quality of the terrestrial point cloud was evaluated by fitting a plane to a planar façade section.
 
 **RMS deviation: 0.06 m**
+
+![Geometric quality assessment of the point cloud](images/geometric-quality.png)
 
 The result indicates a relatively low noise level and good local surface consistency.
 
@@ -68,6 +78,10 @@ The result indicates a relatively low noise level and good local surface consist
 The processed point cloud was also prepared for interactive 3D visualization using **Cesium**.
 
 This allows the spatial dataset to be explored in a web-based 3D environment and provides an intuitive representation of the registered point cloud.
+
+### Cesium Visualization
+
+![3D point cloud visualization in Cesium](images/cesium-visualization.png)
 
 ## Tools & Technologies
 
